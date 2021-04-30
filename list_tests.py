@@ -13,5 +13,8 @@ class TestStringMethods(unittest.TestCase):
     def test3(self):
         self.assertEqual(avg_list([-1,0,-1,0]), -0.5)
 
+    def test4(self):
+        self.assertEqual(avg_list([-1,0,-1,0]), 20)
+
 if __name__ == "__main__":
     unittest.main()

@@ -13,5 +13,8 @@ class TestStringMethods(unittest.TestCase):
     def test3(self):
         self.assertEqual(calc_volume_cube(-1), None)
 
+    def test4(self):
+        self.assertEqual(calc_volume_cube(3), 50)
+
 if __name__ == "__main__":
     unittest.main()
